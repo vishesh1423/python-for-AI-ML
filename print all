@@ -1,0 +1,2 @@
+for elem in student.items():
+  print("keys : ",elem[0] ,     "  ,   values : ", elem[1])
