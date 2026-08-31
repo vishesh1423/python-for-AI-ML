@@ -1,0 +1,7 @@
+
+
+def greet("name" , "best friend" , "my age"):
+  print(my name is name,my best friend name is best friend,my age is my age)
+
+
+greet( my_age=20,name="vishesh",best_friend="mayank")
