@@ -1,0 +1,11 @@
+# Create an employee dictionary with salary ₹50,000 and increase the salary by 10%.
+
+employe = {
+    
+       "salary" : 50000     
+          
+}
+
+employe["salary"] = employe["salary"] + employe["salary"]*0.1
+
+print(employe["salary"])
