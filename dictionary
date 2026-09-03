@@ -1,0 +1,22 @@
+student = {
+    "roll_no":14,
+    "name":"vishesh",
+    "cgpa":9.7,
+    "state":"rajasthan",
+    "city":"jaipur"
+}
+
+
+# how to access any value using key .
+
+student["name"]
+
+# When I don't want any error for a key that is not present in the dictionary .
+
+student.get("age","key not found")
+
+# how to pop any element from dictionary .
+
+student.pop("roll_no")
+
+#
