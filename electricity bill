@@ -1,0 +1,23 @@
+#  Electricity Bill
+# Take units consumed as input:
+
+# ≤ 100 units → ₹5/unit
+# 101–200 → ₹7/unit
+# 201–300 → ₹10/unit
+# Above 300 → ₹12/unit
+
+# Calculate the total bill.
+
+units = int(input("enter units consumed -->"))
+
+if units <= 100:
+  print("total bill -->", units*5)
+
+elif units <=200:
+  print("total bill-->" , units*7)
+
+elif units <= 300:
+  print("total marks-->" , units*10)
+
+else:
+  print("total bill-->" , units*12)
