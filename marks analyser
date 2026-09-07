@@ -1,0 +1,32 @@
+# Q1. Student Marks Analyzer
+# Take marks of 5 subjects as input. Calculate and print:
+
+# Total marks
+# Average marks
+# Whether the student passed or failed
+# Pass condition: average ≥ 40
+
+maths = int(input("enter your maths marks-->"))
+physics = int(input("enter your physics marks-->"))
+chemistry = int(input("enter your chemistry marks-->"))
+biology = int(input("enter your biology marks-->"))
+english = int(input("enter your english marks-->"))
+
+Total_marks = maths + physics +chemistry + biology + english
+
+Average_marks = Total_marks/5
+
+print("-"*10)
+
+print(Total_marks)
+print("-"*10)
+
+print(Average_marks)
+print("-"*10)
+
+if Average_marks >= 40:
+  print("student is pass")
+else:
+  print("student fail")
+
+print("-"*10)
