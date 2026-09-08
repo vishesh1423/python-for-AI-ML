@@ -1,0 +1,19 @@
+# Replace Negative Numbers
+# Given:
+
+# numbers = [10, -5, 20, -8, 15, -2]
+
+# Replace every negative number with same positive value
+
+
+
+
+a = [ 10 , -5 , 4 , -6 , -10]
+n = len(a)
+
+for i in range(n):
+  if a[i] > 0 :
+    print(a[i] , end = " ")
+
+  elif a[i]<0:
+    print(-a[i],end = " ")
