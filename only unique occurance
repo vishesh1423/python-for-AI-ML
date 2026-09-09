@@ -1,0 +1,9 @@
+students = [ "vishesh" , "hardik" , "saksham" , "vishesh" , "saksham", "prateek"]
+
+s1 = []
+
+for student in students:
+  if student not in s1:
+    s1.append(student)
+
+print(s1)
