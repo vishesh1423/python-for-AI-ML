@@ -1,0 +1,10 @@
+# Write a code to only store the unique occurances of the elements in the list.
+
+students = [ "vishesh" , "saksham" , "hardik" , "prateek" , "vishesh" , "saksham"] 
+s1 = []
+
+for student in students:
+  if student not in s1:
+    s1.append(student)
+
+print(s1)
